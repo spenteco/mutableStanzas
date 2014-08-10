@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html;charset=utf-8'>
+        <meta name="description" content="The Mutable Stanzas">
+        <meta name="keywords" content="Edmund Spenser,Faerie Queene,Walter Crane,Oulipo,Cent Mille Milliards de Poèmes,digital poetry">
+        <meta name="author" content="Stephen M. Pentecost">
+        
+        <link href='http://fonts.googleapis.com/css?family=Cinzel:700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:700' rel='stylesheet' type='text/css'>
+        
+        <link href="css/mutableStanzas.css" rel="stylesheet" type="text/css".>
+        
+		<script src="js/jquery-1.11.0.min.js" charset="utf-8"></script>
+		<script src="js/json2.js" charset="utf-8"></script>
+        
+        <script src="js/images.js"></script>
+        <script src="js/lineGroups.js" charset="windows-1252"></script>
+        <script src="js/possibleRhymes.js"></script>
+        <script src="js/mutableStanzasConfig.js"></script>
+        <script src="js/mutableStanzasState.js"></script>
+        <script src="js/mutableStanzaGenerator.js"></script>
+        <script src="js/mutableStanzasHtmlGen.js"></script>
+        <script src="js/mutableStanzasControls.js"></script>
+        <script src="js/mutableStanzasMain.js"></script>
+        
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31621984-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+        </script>
+        
+    </head>
+    <body>
+        <div id="content_container">
+            <div id="page_header">
+                <div class="page_title">The Mutable Stanzas</div>
+                <div class="controls">
+                    <div class="control_line">
+                        <span class="control_widgets" id="rewind_widget"></span>
+                        <span class="control_widgets" id="pause_widget"></span>
+                        <span class="control_widgets" id="play_widget"></span>
+                        <span class="control_widgets" id="forward_widget"></span>
+                    </div>
+                    <div class="control_line">
+                        <span class="control_widgets" id="link_widget"></span>
+                        <span class="control_widgets" id="twitter_widget"></span>
+                        <span class="control_widgets" id="github_widget"></span>
+                        <span class="control_widgets" id="text_widget"></span>
+                        <span class="control_widgets" id="about_widget"></span>
+                    </div>
+                </div>
+            </div>
+            <div id="page_center">
+                <div id="frame_container"></div>
+                <div id="ad_container"></div>
+            </div>
+            <div id="page_footer">
+            </div>
+        
+            <div id="url_popup_box">
+                <div id="url_popup_caption"><b>short url for this state:</b></div>
+                <div id="url_popup_close"><a class="text_link" href="javascript:closeUrlPopup();">close</a></div>
+                <div class="clear_both"></div>
+                <div id="url_popup_message"></div>
+            </div>
+        </div>
+        
+        <div id="hidden_controls_container">
+                
+            <span id="disabled_about_widget"><img src="controls/disabled.about.svg"/></span>
+            <span id="disabled_forward_widget"><img src="controls/disabled.forward.svg"/></span>
+            <span id="disabled_github_widget"><img src="controls/disabled.github.svg"/></span>
+            <span id="disabled_link_widget"><img src="controls/disabled.link.svg"/></span>
+            <span id="disabled_pause_widget"><img src="controls/disabled.pause.svg"/></span>
+            <span id="disabled_play_widget"><img src="controls/disabled.play.svg"/></span>
+            <span id="disabled_rewind_widget"><img src="controls/disabled.rewind.svg"/></span>
+            <span id="enabled_about_widget"><img src="controls/enabled.about.svg"/></span>
+            <span id="enabled_forward_widget"><img src="controls/enabled.forward.svg"/></span>
+            <span id="enabled_github_widget"><img src="controls/enabled.github.svg"/></span>
+            <span id="enabled_link_widget"><img src="controls/enabled.link.svg"/></span>
+            <span id="enabled_pause_widget"><img src="controls/enabled.pause.svg"/></span>
+            <span id="enabled_play_widget"><img src="controls/enabled.play.svg"/></span>
+            <span id="enabled_rewind_widget"><img src="controls/enabled.rewind.svg"/></span>
+            <span id="enabled_twitter_widget"><img src="controls/enabled.twitter.svg"/></span>
+            <span id="enabled_text_widget"><img src="controls/enabled.text.svg"/></span>
+            
+        </div>
+
+    </body>
+</html>
